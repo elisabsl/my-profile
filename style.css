@@ -1,0 +1,105 @@
+/* Colors and fonts */
+
+body {
+	background: #f4f4f4; /* Light gray background */
+	color: #333; /* Dark gray text */
+	font-family: 'Helvetica', sans-serif; /* Change to Helvetica */
+	font-size: 18px; /* Slightly larger text */
+	font-weight: normal; /* Normal font weight */
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', serif; /* Change to Georgia */
+}
+
+h1 {
+	color: #E71D36; /* Red title */
+	font-size: 36px; /* Larger title */
+	font-weight: 700; /* Bold font weight */
+}
+
+h2 {
+	color: #3D9970; /* Green subtitle */
+	font-size: 24px; /* Slightly larger subtitle */
+	font-weight: normal; /* Normal font weight */
+}
+
+a {
+	font-family: 'Georgia', serif; /* Change to Georgia */
+	text-decoration: none;
+	color: #0074D9; /* Blue links */
+	font-weight: 600; /* Semi-bold links */
+	font-size: 16px; /* Slightly smaller links */
+}
+
+a:hover {
+	color: #333; /* Dark gray on hover */
+}
+
+.container {
+	width: 800px; /* Wider container */
+	margin: 30px auto; /* Slightly smaller margin */
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: #E0E0E0; /* Lighter gray background */
+	padding: 30px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 6px; /* Slightly rounder corners */
+	margin: 20px 0;
+	text-align: center; /* Left-align text */
+}
+
+.img-circle {
+	 border-radius: 50%;
+    max-width: 50%; /* To make the image adapt to the container's width */
+    height: auto;
+}
+
+.btn-blue {
+	background-color: #1E44DD; /* Dark blue button */
+	color: white;
+	padding: 12px 18px; /* Slightly smaller button */
+	border-radius: 6px; /* Slightly rounder corners */
+}
+
+.btn-blue:hover {
+	background-color: #0036A1; /* Darker blue on hover */
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 8px; /* Smaller spacing between list items */
+}
+
+.list-inline i {
+	font-size: 40px; /* Slightly smaller icon size */
+	color: #3D9970; /* Green icons */
+}
+
+.list-inline i:hover {
+	font-size: 40px; /* Maintain size on hover */
+	color: #333; /* Dark gray on hover */
+}
+
+#introduction p {
+	margin: 20px; /* Smaller margin for paragraphs */
+}
